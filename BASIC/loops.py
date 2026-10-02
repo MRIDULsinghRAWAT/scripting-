@@ -89,3 +89,5 @@ print(even_numbers)  # [0, 2, 4, 6, 8]
 # Dictionary comprehension
 squares_dict = {x: x**2 for x in range(5)}
 print(squares_dict)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+
+#most imp loops = for, while
