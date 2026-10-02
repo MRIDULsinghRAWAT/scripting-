@@ -1,8 +1,8 @@
-# wap in python to generate a random password of length 8 containing letters, digits, and special characters.
+# wap pass generator 
 import random
 import string
-def generate_pass(length=4):
-    if(length<4):
-        raise ValueError("length atleast 4")
-    
-    
+chars = string.ascii_letters+ string.digits+string.punctuation
+password =""
+for i in range(8):
+    password +=random.choice(chars)
+print(password)
